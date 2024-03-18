@@ -1,0 +1,20 @@
+11 Austr�lia       dol�r         1 AUD   22.614 20050307  45
+11 Cyprus          libra         1 CYP   65.003 20050307  45
+11 �esk� republika koruna        1 CZK    1.278 20050307  45
+11 D�nsko          koruna        1 DKK    5.087 20050307  45
+11 EMU             euro          1 EUR   37.868 20050307  45
+11 Est�nsko        koruna        1 EEK    2.420 20050307  45
+11 Japonsko        jen         100 JPY   27.387 20050307  45
+11 Kanada          dol�r         1 CAD   23.197 20050307  45
+11 Litva           litas         1 LTL   10.967 20050307  45
+11 Loty�sko        lats          1 LVL   54.372 20050307  45
+11 Ma�arsko        forint      100 HUF   15.610 20050307  45
+11 Malta           l�ra          1 MTL   87.871 20050307  45
+11 N�rsko          koruna        1 NOK    4.606 20050307  45
+11 Po�sko          zloty         1 PLN    9.644 20050307  45
+11 Slovinsko       toliar      100 SIT   15.797 20050307  45
+11 �vaj�iarsko     frank         1 CHF   24.448 20050307  45
+11 �v�dsko         koruna        1 SEK    4.187 20050307  45
+11 USA             dol�r         1 USD   28.855 20050307  45
+11 V. Brit�nia     lstg          1 GBP   55.039 20050307  45
+11 MMF-ZPC-SDR     SDR           1 XDR   43.948 20050307  45

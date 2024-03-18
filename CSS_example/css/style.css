@@ -1,0 +1,161 @@
+/* priestor pre vkladanie formatovania */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main{
+    width: 1024px;
+    height: 768px;
+    background-image: url(../images/background.jpg);
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+iframe{
+    /*display: none;*/
+    border: 20px double white;
+    border-radius: 25px;
+    background-color: blue;
+    
+}
+
+#top{
+    height:120px;
+    width:800px;
+    background-color:rgb(153,204,255);
+    position: absolute;
+    top: 20px;
+    left:112px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    line-height:120px;
+    transition:font-size 1s;
+}
+
+#top:hover{
+    font-size: 75px;
+    
+}
+
+#top:hover #s1{
+    color:red
+}
+
+#top:hover #s2{
+    color:white
+}
+
+#top:hover #s3{
+    color:green
+}
+
+#top #s1{
+    transition: color 0.5s 1s;
+}
+
+#top #s2{
+    transition: color 0.5s 1.5s;
+}
+
+#top #s3{
+    transition: color 0.5s 2s;
+}
+
+#css_anim{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    background-image: url(../images/css.gif);
+}
+
+#menu_middle,#menu_top,#menu_right,#menu_bottom,#menu_left{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(0,51,153);
+    border-radius: 25px;
+    color: rgb(51,204,204);
+}
+
+#menu_middle{
+    top: 350px;
+    left: 200px;
+    color: white;
+    background-color: rgb(0,102,255);
+}
+
+#menu_top{
+    top:250px;
+    left:200px;
+}
+
+#menu_right{
+    top:350px;
+    left:300px;
+}
+
+#menu_left{
+    top:350px;
+    left:100px;
+}
+
+#menu_bottom{
+    left:200px;
+    top:450px;
+}
+
+#menu_top:hover,#menu_right:hover,#menu_left:hover,#menu_bottom:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transform: rotate(360deg);/* otacanie */
+}
+#menu_top,#menu_left,#menu_right,#menu_bottom{
+    transition-property: background,color,border-radius,transform; /* otacanie */
+    transition-duration: 1s, 1s, 1s, 1s;
+}
+
+#menu_top:hover div,#menu_left:hover div,#menu_right:hover div,#menu_bottom:hover div{
+    width: 450px;
+    height: 530px;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s 0.4s; /*na zviditelnovanie*/
+}
+
+#menu_top:hover div{
+    top: -75px;
+    left: 250px; 
+}
+
+#menu_left:hover div{
+    top: -175px;
+    left: 350px; 
+}
+
+#menu_right:hover div{
+    top: -175px;
+    left: 150px;
+}
+
+#menu_bottom:hover div{
+    top: -275px;
+    left: 250px;
+}
+
+#menu_top div,#menu_left div,#menu_right div,#menu_bottom div{
+    opacity: 0;   
+}
+
+#body{
+    overflow: hidden;
+}
